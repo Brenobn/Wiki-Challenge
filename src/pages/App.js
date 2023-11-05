@@ -9,10 +9,15 @@ import { Container } from './styles';
 
 function App() {
   
+const [currentRepo, setCurrentRepo] = useState('');
 const [repos, setRepos] = useState([]);
 
 const handleSearchRepo = async () => {
-  const {data} = api
+  const {data} = api.get(`repos/${currentRepo}`)
+
+  if(data.id) {
+    setRepos(prev => [...prev, data]);
+  }
 }
  
 
