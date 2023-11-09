@@ -1,6 +1,6 @@
 📃 Sobre Este repositório contém uma aplicação em ReactJS utilizando JavaScript.
 
-Essa é a aplicação GitFind, de gestão de consultas ao github. Nele o usuário é capaz de visualizar todos seus repositórios cadatrados, bem como cadastrar novos repositórios, editar e deletar repositótios existentes.
+Essa é a aplicação Wiki-Challenge, de gestão de consultas ao github. Nele o usuário é capaz de visualizar todos seus repositórios cadatrados, bem como cadastrar novos repositórios, editar e deletar repositótios existentes.
 
 🔨 Tecnologias Esse projeto foi desenvolvido com as seguintes tecnologias:
 
